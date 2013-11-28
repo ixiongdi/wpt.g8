@@ -10,14 +10,14 @@
 [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)
 ###4. install scalate 1.6.1
 [scalate](http://scalate.fusesource.org/download.html)
-###5. install thrift 0.9.1
-[thrift](http://thrift.apache.org/download/)
 ```
 git clone https://github.com/ixiongdi/unfiltered-scalate.git  
 cd unfiltered-scalate  
 sbt
 publishLocal
 ```
+###5. install thrift 0.9.1
+[thrift](http://thrift.apache.org/download/)
 ###6. sbt run
 ###7. browser http://localhost:$port$/hello
 ###8. for dev
