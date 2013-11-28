@@ -1,0 +1,6 @@
+*{margin:0;padding:0}
+body{font-family:helvetica,arial,san-serif}
+a:link,a:visited{color:#ff297e;text-decoration:none;-webkit-transition:color .25s}
+a:hover{color:#35e7ff;-webkit-transition:color .25s}
+#container{width:500px;margin:1em auto}
+h1{display:none;margin-top:-620px;font-size:90px}
