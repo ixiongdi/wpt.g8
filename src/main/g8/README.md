@@ -1,4 +1,4 @@
-# i-MD Web Tool
+# Web Project Template
 
 ---
 
@@ -25,6 +25,5 @@ sbt
 sbt  
 oneJar  
 exit  
-<<<<<<< HEAD
 java -jar target/scala-2.10/$name$_2.10-1.0-one-jar.jar
 ```
