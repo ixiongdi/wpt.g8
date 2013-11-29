@@ -62,9 +62,9 @@ seq(com.github.bigtoast.sbtthrift.ThriftPlugin.thriftSettings: _*)
 
 (Keys.compile in Compile) <<= Keys.compile in Compile dependsOn (LessKeys.less in Compile)
 
-(resourceManaged in (Compile, JsKeys.js)) <<= (sourceDirectory in Compile)(_ / "resources" / "public" / "js")
+(resourceManaged in (Compile, JsKeys.js)) <<= (sourceDirectory in Compile)(_ / "resources" / "static" / "js")
 
-(resourceManaged in (Compile, LessKeys.less)) <<= (sourceDirectory in Compile)(_ / "resources" / "public" / "css")
+(resourceManaged in (Compile, LessKeys.less)) <<= (sourceDirectory in Compile)(_ / "resources" / "static" / "css")
 
 
 resolvers ++= Seq(
