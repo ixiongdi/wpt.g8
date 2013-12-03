@@ -1,0 +1,1 @@
+{"name":"Wpt.g8","tagline":"A web project template.","body":"wpt.g8\r\n======\r\n\r\nA web project template.\r\n\r\n```\r\ncurl https://raw.github.com/n8han/conscript/master/setup.sh | sh\r\n\r\ncs n8han/giter8\r\n\r\ng8 ixiongdi/wpt\r\n```\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
